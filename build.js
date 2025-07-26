@@ -113,3 +113,5 @@ logging.log(`Running data imports...`);
 await runDataImports(database);
 
 database.close();
+
+logging.log('DONE! Database built successfully.');
