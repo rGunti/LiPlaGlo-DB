@@ -1,0 +1,145 @@
+[
+  {
+    "id": "XX",
+    "name": "raw:Example Country",
+    "flag_emoji": "🏳️",
+    "license_plate_font": "Swiss License Plates",
+    "generic_preview": "XX·12345",
+    "description": "raw:This is an example country for testing purposes.",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "raw:This is an example country that allows vanity plates.",
+    "hidden": 1
+  },
+  {
+    "id": "CH",
+    "name": "country_ch",
+    "flag_emoji": "\uD83C\uDDE8\uD83C\uDDED",
+    "license_plate_font": "Swiss License Plates",
+    "generic_preview": "XX·123 456",
+    "description": "description_ch",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_ch",
+    "hidden": 0
+  },
+  {
+    "id": "D",
+    "name": "country_d",
+    "flag_emoji": "\uD83C\uDDE9\uD83C\uDDEA",
+    "license_plate_font": "GL-Nummernschild-Mtl",
+    "generic_preview": "AB : CD 1234",
+    "description": "description_de",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_de",
+    "hidden": 0
+  },
+  {
+    "id": "N",
+    "name": "country_n",
+    "flag_emoji": "\uD83C\uDDF3\uD83C\uDDF4",
+    "license_plate_font": null,
+    "generic_preview": "XX 12345",
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 1
+  },
+  {
+    "id": "AX",
+    "name": "country_ax",
+    "flag_emoji": "\uD83C\uDDE6\uD83C\uDDFD",
+    "license_plate_font": null,
+    "generic_preview": "ÅLA 1234",
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 1
+  },
+  {
+    "id": "DK",
+    "name": "country_dk",
+    "flag_emoji": "\uD83C\uDDE9\uD83C\uDDF0",
+    "license_plate_font": null,
+    "generic_preview": "XX 12 345",
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 1
+  },
+  {
+    "id": "NL",
+    "name": "country_nl",
+    "flag_emoji": "\uD83C\uDDF3\uD83C\uDDF1",
+    "license_plate_font": null,
+    "generic_preview": null,
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 1
+  },
+  {
+    "id": "FIN",
+    "name": "country_fin",
+    "flag_emoji": "\uD83C\uDDEB\uD83C\uDDEE",
+    "license_plate_font": null,
+    "generic_preview": "XXX-000",
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 1
+  },
+  {
+    "id": "S",
+    "name": "country_s",
+    "flag_emoji": "\uD83C\uDDF8\uD83C\uDDEA",
+    "license_plate_font": null,
+    "generic_preview": "XXX 000",
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 1
+  },
+  {
+    "id": "E",
+    "name": "country_e",
+    "flag_emoji": "\uD83C\uDDEA\uD83C\uDDF8",
+    "license_plate_font": null,
+    "generic_preview": null,
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 1
+  },
+  {
+    "id": "F",
+    "name": "country_f",
+    "flag_emoji": "\uD83C\uDDEB\uD83C\uDDF7",
+    "license_plate_font": null,
+    "generic_preview": null,
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 1
+  },
+  {
+    "id": "B",
+    "name": "country_b",
+    "flag_emoji": "\uD83C\uDDE7\uD83C\uDDEA",
+    "license_plate_font": null,
+    "generic_preview": null,
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 1
+  },
+  {
+    "id": "FL",
+    "name": "country_fl",
+    "flag_emoji": "\uD83C\uDDF1\uD83C\uDDEE",
+    "license_plate_font": "Swiss License Plates",
+    "generic_preview": "FL·12345",
+    "description": null,
+    "vanity_plates_possible": 0,
+    "vanity_plates_description": null,
+    "hidden": 0
+  }
+]

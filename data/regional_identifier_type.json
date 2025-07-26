@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "country_id": "CH",
+    "name": "cantons"
+  },
+  {
+    "id": 2,
+    "country_id": "D",
+    "name": "states"
+  },
+  {
+    "id": 9999999,
+    "country_id": "XX",
+    "name": "cantons"
+  }
+]

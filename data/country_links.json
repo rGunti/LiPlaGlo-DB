@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "country_id": "CH",
+    "label": "raw:Apple Maps",
+    "link": "https://maps.apple/p/U.3oHNggRw_GrU",
+    "link_language": null
+  },
+  {
+    "id": 2,
+    "country_id": "FL",
+    "label": "raw:Apple Maps",
+    "link": "https://maps.apple.com/place?address=Liechtenstein&auid=7297282072788613182&coordinate=47.160282",
+    "link_language": null
+  },
+  {
+    "id": 3,
+    "country_id": "CH",
+    "label": "raw:Vehicle registration plates of Switzerland – Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Switzerland",
+    "link_language": "en"
+  },
+  {
+    "id": 4,
+    "country_id": "CH",
+    "label": "raw:Kontrollschild (Schweiz) – Wikipedia",
+    "link": "https://de.wikipedia.org/wiki/Kontrollschild_(Schweiz)",
+    "link_language": "de"
+  },
+  {
+    "id": 5,
+    "country_id": "FL",
+    "label": "raw:Kontrollschild (Liechtenstein)",
+    "link": "https://de.wikipedia.org/wiki/Kontrollschild_(Liechtenstein)",
+    "link_language": "de"
+  },
+  {
+    "id": 6,
+    "country_id": "FL",
+    "label": "raw:Vehicle registration plates of Liechtenstein",
+    "link": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Liechtenstein",
+    "link_language": "en"
+  }
+]

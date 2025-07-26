@@ -1,0 +1,17 @@
+[
+  {
+    "id": "xx",
+    "native_language_name": "Example Language",
+    "english_language_name": "Example Language"
+  },
+  {
+    "id": "en",
+    "native_language_name": "English",
+    "english_language_name": "English"
+  },
+  {
+    "id": "de",
+    "native_language_name": "Deutsch",
+    "english_language_name": "German"
+  }
+]
