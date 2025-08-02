@@ -35,5 +35,7 @@
   "vanity_plates_description_ch": "In der Schweiz werden Kontrollschilder von den kantonalen Behörden in der Regel nach aufsteigender Nummer vergeben, Wunschkennzeichen sind allerdings bedingt möglich. Sofern eine Nummer frei ist, kann diese gegen eine (je nach Anzahl der Ziffern unterschiedlich hohe) Gebühr erhalten werden. In den meisten Kantonen werden besondere Nummern mittlerweile meistbietend versteigert und erzielen noch höhere Preise.\n\nQuelle: https://de.wikipedia.org/wiki/Wunschkennzeichen#Nationales",
   "cantons": "Kantone",
   "states": "Bundesländer",
-  "political_districts": "Politische Bezirke"
+  "political_districts": "Politische Bezirke",
+  "federal": "Bund",
+  "diplomatic": "Diplomatisch"
 }

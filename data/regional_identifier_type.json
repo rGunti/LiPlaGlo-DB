@@ -1,18 +1,48 @@
 [
   {
-    "id": 1,
+    "id": 10,
     "country_id": "CH",
     "name": "cantons"
   },
   {
-    "id": 2,
+    "id": 20,
+    "country_id": "D",
+    "name": "political_districts"
+  },
+  {
+    "id": 21,
+    "country_id": "D",
+    "name": "federal"
+  },
+  {
+    "id": 22,
     "country_id": "D",
     "name": "states"
   },
   {
-    "id": 3,
+    "id": 23,
+    "country_id": "D",
+    "name": "diplomatic"
+  },
+  {
+    "id": 30,
     "country_id": "A",
     "name": "political_districts"
+  },
+  {
+    "id": 31,
+    "country_id": "A",
+    "name": "federal"
+  },
+  {
+    "id": 32,
+    "country_id": "A",
+    "name": "states"
+  },
+  {
+    "id": 33,
+    "country_id": "A",
+    "name": "diplomatic"
   },
   {
     "id": 9999999,

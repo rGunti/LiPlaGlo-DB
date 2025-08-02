@@ -21,5 +21,7 @@
   "vanity_plates_description_ch": "In Switzerland, license plates are generally issued by the cantonal authorities in ascending order of number, although special plates are possible to a limited extent. If a number is available, it can be obtained for a fee (which varies depending on the number of digits). In most cantons, special numbers are now auctioned off to the highest bidder and fetch even higher prices\n\nSource (German): https://de.wikipedia.org/wiki/Wunschkennzeichen#Nationales",
   "cantons": "Cantons",
   "states": "States",
-  "political_districts": "Political Districts"
+  "political_districts": "Political Districts",
+  "federal": "Federal",
+  "diplomatic": "Diplomatic"
 }
