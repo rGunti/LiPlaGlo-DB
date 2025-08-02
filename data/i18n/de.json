@@ -16,13 +16,11 @@
   "country_fl": "Liechtenstein",
   "country_xx": "Beispielsland",
   "standard_license_plate": "Standard-Kennzeichen",
-  "military_plate": "Militär-Kennzeichen",
   "standard_license_plate_ch": "Motorwagen und Anhänger",
   "military_plate_ch": "Militär-Fahrzeuge",
   "heavy_utility_vehicles_ch": "Arbeitsfahrzeuge",
   "exceptional_vehicles_ch": "Ausnahmefahrzeuge",
   "agricultural_vehicles_ch": "Landwirtschaftliche Fahrzeuge",
-  "bikes_ch": "Motorräder, Klein- und dreirädrige Fahrzeuge",
   "small_vehicles_ch": "Leichtmotorfahrzeuge",
   "copy_plate_ch": "Wiederholungsschild (für Veloträger)",
   "garage_number_ch": "Garagennummer",
@@ -37,5 +35,9 @@
   "states": "Bundesländer",
   "political_districts": "Politische Bezirke",
   "federal": "Bund",
-  "diplomatic": "Diplomatisch"
+  "diplomatic": "Diplomatisch",
+  "description_de": "Das Kfz-Kennzeichen (allgemeinsprachlich auch Nummernschild oder nur Kennzeichen) ist in Deutschland die gemäß der Fahrzeug-Zulassungsverordnung (FZV) von den Kraftfahrzeug-Zulassungsstellen ausgegebene amtliche Kennzeichnung von Fahrzeugen für Kraftfahrzeuge und gegebenenfalls deren Anhänger sowie Sonderfahrzeuge. Das Kfz-Kennzeichen besteht aus einem Unterscheidungszeichen (ein bis drei Großbuchstaben, z. B. RA) und der Erkennungsnummer (ein oder zwei Großbuchstaben und bis zu vier Ziffern, z. B. KL 8136). Für zulassungspflichtige Kraftfahrzeuge dienen sie zusammen mit der Zulassungsbescheinigung als Nachweis für die Zulassung von Fahrzeugen zum Straßenverkehr durch eine örtlich und sachlich zuständige Straßenverkehrsbehörde (je nach Wohnsitz bzw. Unternehmenssitz). Fahrzeuge, für die eine allgemeine Betriebserlaubnis oder Typgenehmigung genügt (zulassungsfreie Fahrzeuge), benötigen ein Versicherungskennzeichen. Diese gelten zulassungsrechtlich nicht als amtliche Kennzeichen, da sie von der Kfz-Haftpflichtversicherung ausgegeben werden. Der Begriff Kfz-Kennzeichen steht gleichermaßen für die alphanumerische Zeichenfolge wie für das eigentliche Kennzeichenschild.\n\nQuelle: https://de.wikipedia.org/wiki/Kfz-Kennzeichen_(Deutschland)",
+  "vanity_plates_description_de": "In Deutschland können Wunschkennzeichen seit dem 6. November 1991 beantragt werden. Die bundeseinheitliche Gebühr, um ein Wunschkennzeichen zu erhalten, betrug bei ihrer Einführung 20 DM und beträgt derzeit 10,20 Euro (Geb.-Nr. 221 der Anlage zur Gebührenordnung für Maßnahmen im Straßenverkehr). Fast alle Zulassungsstellen bieten inzwischen eine Online-Reservierung an. Für eine derartige Vorabreservierung fällt grundsätzlich eine zusätzliche Gebühr von 2,60 Euro an, wodurch die Gesamtgebühren 12,80 Euro für ein Wunschkennzeichen mit Vorabreservierung betragen.\n\nQuelle: https://de.wikipedia.org/wiki/Kfz-Kennzeichen_(Deutschland)#Wunschkennzeichen",
+  "description_at": "Das Nummerierungsschema setzt sich aus einem „Unterscheidungszeichen“ und einem „Vormerkzeichen“ zusammen. Das Unterscheidungszeichen besteht aus ein oder zwei Buchstaben und kennzeichnet Verwaltungsbezirk (politischen Bezirk), Statutarstadt, Landesregierung oder Bundesbehörden; das Vormerkzeichen besteht aus einer Kombination aus Ziffern und Buchstaben und wird in ansteigender Reihenfolge vergeben.\n\nQuelle: https://de.wikipedia.org/wiki/Kfz-Kennzeichen_(Österreich)#Systematik",
+  "vanity_plates_description_at": "In Österreich sind Kennzeichen nach eigener Wahl möglich, bei denen der Zulassungsbesitzer eine beliebige Buchstaben-Zahlen-Kombination als Vormerkzeichen beantragen kann. Es wurde 1990 eingeführt, nachdem die Ausgabe „alter“ schwarzer Kennzeichentafeln zugunsten der weißen Kennzeichentafeln endete. Für das Wunschkennzeichen können bis zu sieben Zeichen verwendet werden. Diese dürfen \"nicht gegen die guten Sitten oder die öffentliche Ordnung verstoßen.\" (§ 48a KVG, 12. Kraftfahrgesetz-Novelle, 15. Juli 1988).\n\nQuelle: https://de.wikipedia.org/wiki/Kfz-Kennzeichen_(Österreich)#Kennzeichen_nach_eigener_Wahl_(Wunschkennzeichen)"
 }
