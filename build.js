@@ -72,7 +72,7 @@ const dataFiles = [
     'data/countries.json',
     'data/country_links.json',
     'data/plate_variants.json',
-    'data/regional_identifier_type.json',
+    'data/plate_identifier_type.json',
 ];
 
 for (const file of dataFiles) {

@@ -12,7 +12,7 @@ export function insertLanguageString(db, stringKey, languageKey, value) {
 }
 
 export function insertRegionalIdentifier(db, countryId, typeId, identifier, name, description) {
-    const sql = `INSERT INTO regional_identifier (country_id, type_id, identifier, name, description) VALUES (?, ?, ?, ?, ?)`;
+    const sql = `INSERT INTO plate_identifier (country_id, type_id, identifier, name, description) VALUES (?, ?, ?, ?, ?)`;
     try {
         logging.logSqlCommand(sql, [countryId, typeId, identifier, name, description]);
         db.prepare(sql).run(countryId, typeId, identifier, name, description);

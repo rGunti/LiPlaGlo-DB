@@ -79,28 +79,28 @@ create table plate_variants
     "order"              integer
 );
 
--- regional_identifier_type
-create table regional_identifier_type
+-- plate_identifier_type
+create table plate_identifier_type
 (
     id         integer not null
-        constraint regional_identifier_type_pk
+        constraint plate_identifier_type_pk
             primary key autoincrement,
     country_id text    not null
-        constraint regional_identifier_type_countries_id_fk
+        constraint plate_identifier_type_countries_id_fk
             references countries,
     name       text    not null
 );
 
--- regional_identifier
-create table regional_identifier
+-- plate_identifier
+create table plate_identifier
 (
     id          integer not null
-        constraint regional_identifier_pk
+        constraint plate_identifier_pk
             primary key autoincrement,
     country_id  TEXT    not null,
     type_id     integer not null
-        constraint regional_identifier_regional_identifier_type_id_fk
-            references regional_identifier_type,
+        constraint plate_identifier_plate_identifier_type_id_fk
+            references plate_identifier_type,
     identifier  TEXT    not null,
     name        TEXT    not null,
     description TEXT
