@@ -42,6 +42,37 @@ async function getLanguageFiles() {
     return files;
 }
 
+async function getPostProcessingScripts() {
+    const dir = await opendir('data/postprocessing');
+    const files = [];
+    for await (const dirent of dir) {
+        if (dirent.isFile() && dirent.name.toLocaleLowerCase().endsWith('.sql')) {
+            const filePath = `data/postprocessing/${dirent.name}`;
+
+            logging.log(`Loading post processing script`, filePath);
+
+            const content = readFileSync(filePath, 'utf8');
+            files.push({ filePath, content });
+        }
+    }
+    return files.sort((a, b) => a.filePath.localeCompare(b.filePath));
+}
+
+async function runPostProcessingScripts(database) {
+    // Get post-processing files
+    const postProcessingScripts = await getPostProcessingScripts();
+
+    postProcessingScripts.forEach(script => {
+        logging.logSqlScript(script.filePath);
+        try {
+            database.exec(script.content);
+        } catch (error) {
+            logging.logError(script.filePath, error);
+            throw error;
+        }
+    });
+}
+
 // Main script execution
 const setupScripts = await getSetupScripts();
 console.log(`Found ${setupScripts.length} setup scripts.`);
@@ -112,6 +143,10 @@ for (const { languageCode, content } of languageFiles) {
 // Run data imports
 logging.log(`Running data imports...`);
 await runDataImports(database);
+
+// Run post processing
+logging.log('Running post-processing scripts ...');
+await runPostProcessingScripts(database);
 
 database.close();
 

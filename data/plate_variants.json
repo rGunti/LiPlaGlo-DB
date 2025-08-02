@@ -28,7 +28,7 @@
   {
     "id": 3,
     "country_id": "XX",
-    "title": "military_plate",
+    "title": "military_plate_ch",
     "preview": "M·123 456",
     "preview_text_color": "00ff00",
     "preview_bg_color": "000000",
@@ -41,7 +41,7 @@
   {
     "id": 4,
     "country_id": "CH",
-    "title": "military_plate",
+    "title": "military_plate_ch",
     "preview": "M·123 456",
     "preview_text_color": "ffffff",
     "preview_bg_color": "000000",

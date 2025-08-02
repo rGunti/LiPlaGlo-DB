@@ -42,6 +42,7 @@ async function parseKennzeichenDeutschlandCsv(filePath) {
             identifier: record[1],
             name: `raw:${record[2]}`,
             description: null,
+            is_geographic: true,
         });
       }
     });
@@ -61,12 +62,15 @@ async function parseSonderKennzeichenDeutschlandCsv(filePath) {
     parser.on("readable", function () {
       let record;
       while ((record = parser.read()) !== null) {
+        const typeId = TYPE_MAPPING[record[2]];
+        const isGeographic = typeId !== TYPE_IDS.germany.federal && typeId !== TYPE_IDS.germany.diplomatic;
         records.push({
             country_id: COUNTRY_IDS.germany,
-            type_id: TYPE_MAPPING[record[2]],
+            type_id: typeId,
             identifier: record[1],
             name: `raw:${record[3]}`,
             description: `raw:${record[4]}`,
+            is_geographic: isGeographic,
         });
       }
     });
@@ -103,6 +107,7 @@ async function parseKennzeichenSchweizCsv(filePath) {
             identifier: record[1],
             name: getCantonNameIdentifier(record[3]),
             description: null,
+            is_geographic: true,
         });
         i18n.push({
             string_key: getCantonNameIdentifier(record[3]),
@@ -149,6 +154,7 @@ async function parseKennzeichenOesterreichCsv(filePath) {
             identifier: record[1],
             name: `raw:${record[2]}`,
             description: null,
+            is_geographic: true,
         });
       }
     });
@@ -168,12 +174,15 @@ async function parseSonderKennzeichenOesterreichCsv(filePath) {
     parser.on("readable", function () {
       let record;
       while ((record = parser.read()) !== null) {
+        const typeId = TYPE_MAPPING[record[2]];
+        const isGeographic = typeId !== TYPE_IDS.austria.federal && typeId !== TYPE_IDS.austria.diplomatic;
         records.push({
             country_id: COUNTRY_IDS.austria,
-            type_id: TYPE_MAPPING[record[2]],
+            type_id: typeId,
             identifier: record[1],
             name: `raw:${record[3]}`,
             description: null,
+            is_geographic: isGeographic,
         });
       }
     });
@@ -209,7 +218,8 @@ export async function importOpenPotato(db) {
             record.type_id,
             record.identifier,
             record.name,
-            record.description
+            record.description,
+            record.is_geographic,
         );
     });
     finalI18n

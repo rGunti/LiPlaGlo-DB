@@ -94,15 +94,15 @@ create table plate_identifier_type
 -- plate_identifier
 create table plate_identifier
 (
-    id          integer not null
+    id            integer           not null
         constraint plate_identifier_pk
             primary key autoincrement,
-    country_id  TEXT    not null,
-    type_id     integer not null
+    country_id    TEXT              not null,
+    type_id       integer           not null
         constraint plate_identifier_plate_identifier_type_id_fk
             references plate_identifier_type,
-    identifier  TEXT    not null,
-    name        TEXT    not null,
-    description TEXT
+    identifier    TEXT              not null,
+    name          TEXT              not null,
+    description   TEXT,
+    is_geographic integer           not null
 );
-
