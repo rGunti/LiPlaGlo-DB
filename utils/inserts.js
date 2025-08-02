@@ -17,7 +17,17 @@ export function insertRegionalIdentifier(db, countryId, typeId, identifier, name
         logging.logSqlCommand(sql, [countryId, typeId, identifier, name, description, isGeographic]);
         db.prepare(sql).run(countryId, typeId, identifier, name, description, isGeographic ? 1 : 0);
     } catch (error) {
-        console.error(`Error inserting regional identifier: ${identifier}`, error);
+        logging.logError(`Error inserting regional identifier: ${identifier}`, error);
+        throw error;
+    }
+}
+
+export function setDbVersion(db, version) {
+    const sql = `INSERT INTO version (id, version) VALUES (?, ?)`;
+    try {
+        logging.logSqlCommand(sql, [version]);
+        db.prepare(sql).run('db_version', version);
+    } catch (error) {
         throw error;
     }
 }

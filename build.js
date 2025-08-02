@@ -3,6 +3,7 @@ import { readFileSync, rmSync, statSync } from 'node:fs';
 import { opendir } from 'node:fs/promises';
 import * as inserts from './utils/inserts.js';
 import * as logging from './utils/logging.js';
+import { getDatabaseVersion } from './utils/version.js';
 import { runDataImports } from './transformation/index.js';
 
 const DB_FILE = './liplaglo.db';
@@ -147,6 +148,11 @@ await runDataImports(database);
 // Run post processing
 logging.log('Running post-processing scripts ...');
 await runPostProcessingScripts(database);
+
+// Set version
+logging.log('Setting version');
+const dbVersion = getDatabaseVersion();
+inserts.setDbVersion(database, `${dbVersion}`);
 
 database.close();
 
