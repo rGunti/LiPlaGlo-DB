@@ -14,7 +14,7 @@ missing_translations as (
     from all_combinations ac
     left join i18n i
         on ac.string_key = i.string_key and ac.language_key = i.language_key
-    where i.string_key is null
+    where i.string_key is null and ac.language_key != 'xx'
 ),
 grouped_missing as (
     select
