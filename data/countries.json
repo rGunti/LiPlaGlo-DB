@@ -33,6 +33,17 @@
     "hidden": 0
   },
   {
+    "id": "A",
+    "name": "country_a",
+    "flag_emoji": "\uD83C\uDDE6\uD83C\uDDF9",
+    "license_plate_font": null,
+    "generic_preview": "AB 1234 CD",
+    "description": "description_at",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_at",
+    "hidden": 0
+  },
+  {
     "id": "N",
     "name": "country_n",
     "flag_emoji": "\uD83C\uDDF3\uD83C\uDDF4",

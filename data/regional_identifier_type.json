@@ -10,6 +10,11 @@
     "name": "states"
   },
   {
+    "id": 3,
+    "country_id": "A",
+    "name": "political_districts"
+  },
+  {
     "id": 9999999,
     "country_id": "XX",
     "name": "cantons"

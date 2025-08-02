@@ -34,5 +34,6 @@
   "description_ch": "Schweizer Kontrollschilder bestehen aus einem zweistelligen alphabetischen Kantonskürzel und einer bis zu sechsstelligen Nummer. Das hintere Kontrollschild zeigt zusätzlich das Schweizerwappen und das jeweilige Kantonswappen. Die hinteren Nummernschilder können wahlweise im Lang- oder Hochformat angefordert werden.\n\nQuelle: https://de.wikipedia.org/wiki/Kontrollschild_(Schweiz)",
   "vanity_plates_description_ch": "In der Schweiz werden Kontrollschilder von den kantonalen Behörden in der Regel nach aufsteigender Nummer vergeben, Wunschkennzeichen sind allerdings bedingt möglich. Sofern eine Nummer frei ist, kann diese gegen eine (je nach Anzahl der Ziffern unterschiedlich hohe) Gebühr erhalten werden. In den meisten Kantonen werden besondere Nummern mittlerweile meistbietend versteigert und erzielen noch höhere Preise.\n\nQuelle: https://de.wikipedia.org/wiki/Wunschkennzeichen#Nationales",
   "cantons": "Kantone",
-  "states": "Bundesländer"
+  "states": "Bundesländer",
+  "political_districts": "Politische Bezirke"
 }
