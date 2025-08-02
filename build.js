@@ -5,6 +5,8 @@ import * as inserts from './utils/inserts.js';
 import * as logging from './utils/logging.js';
 import { runDataImports } from './transformation/index.js';
 
+const DB_FILE = './liplaglo.db';
+
 // Get a list of all SQL files in the setup directory
 async function getSetupScripts() {
     const dir = await opendir('setup');
@@ -44,12 +46,12 @@ async function getLanguageFiles() {
 const setupScripts = await getSetupScripts();
 console.log(`Found ${setupScripts.length} setup scripts.`);
 
-if (statSync('./lpg.db', { throwIfNoEntry: false })) {
+if (statSync(DB_FILE, { throwIfNoEntry: false })) {
     logging.log(`Removing existing database file`);
-    rmSync('./lpg.db', { force: true, recursive: true });
+    rmSync(DB_FILE, { force: true, recursive: true });
 }
 
-const database = new DatabaseSync('./lpg.db', {
+const database = new DatabaseSync(DB_FILE, {
     open: true,
 });
 
