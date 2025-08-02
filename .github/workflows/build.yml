@@ -28,3 +28,13 @@ jobs:
       run: |
         npm install
         npm run build
+
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v4.6.2
+      with:
+        # Artifact name
+        name: liplaglo
+        # A file, directory or wildcard pattern that describes what to upload
+        path: liplaglo.db
+        # The desired behavior if no files are found using the provided path.
+        if-no-files-found: error
