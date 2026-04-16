@@ -60,6 +60,26 @@
     "name": "political_districts"
   },
   {
+    "id": 70,
+    "country_id": "N",
+    "name": "political_districts"
+  },
+  {
+    "id": 71,
+    "country_id": "N",
+    "name": "special_vehicles"
+  },
+  {
+    "id": 72,
+    "country_id": "N",
+    "name": "diplomatic"
+  },
+  {
+    "id": 73,
+    "country_id": "N",
+    "name": "federal"
+  },
+  {
     "id": 9999999,
     "country_id": "XX",
     "name": "cantons"

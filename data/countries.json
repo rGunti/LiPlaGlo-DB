@@ -48,11 +48,11 @@
     "name": "country_n",
     "flag_emoji": "\uD83C\uDDF3\uD83C\uDDF4",
     "license_plate_font": null,
-    "generic_preview": "XX 12345",
-    "description": null,
-    "vanity_plates_possible": 0,
-    "vanity_plates_description": null,
-    "hidden": 1
+    "generic_preview": "RE 12345",
+    "description": "description_n",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_n",
+    "hidden": 0
   },
   {
     "id": "AX",

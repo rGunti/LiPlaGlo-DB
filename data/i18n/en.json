@@ -59,5 +59,19 @@
   "country_pl": "Poland",
   "description_pl": "Vehicle registration plates of Poland use a county (powiat) code system. Each plate begins with a 2–3 letter code: the first letter identifies the voivodeship (province), and the following letter(s) identify the specific county or city within that voivodeship. For example, \"WA\" indicates Warsaw in the Masovian Voivodeship, and \"KR\" indicates Kraków in the Lesser Poland Voivodeship.\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Poland",
   "vanity_plates_description_pl": "In Poland, personalised registration plates are available. Owners can apply for a custom combination of letters and numbers, subject to availability and payment of the applicable fee.\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Poland",
-  "standard_license_plate_pl": "Standard License Plate"
+  "standard_license_plate_pl": "Standard License Plate",
+  "special_vehicles": "Special Vehicles",
+  "description_n": "Norwegian vehicle registration plates have used a two-letter geographic prefix system since 1 April 1971. The prefix identifies the traffic office (trafikkstasjon) where the vehicle was registered, and therefore indicates the region of registration. In addition to the geographic codes, Norway assigns specific prefixes to vehicles by fuel or propulsion type (electric, gas, hydrogen), as well as separate codes for diplomatic and military vehicles.\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Norway",
+  "standard_license_plate_n": "Standard License Plate (Class A)",
+  "dealer_plate_n": "Dealer Plate (Class G)",
+  "dealer_trailer_plate_n": "Dealer Trailer Plate (Class G)",
+  "temporary_plate_n": "Temporary Plate (Class H)",
+  "export_plate_n": "Export / Tourist Plate (Class J)",
+  "off_road_plate_n": "Off-road / Tax-exempt (Class B)",
+  "competition_plate_n": "Competition / Rally (Class C)",
+  "military_plate_n": "Military (Class D)",
+  "military_test_plate_n": "Military Test / Development (Class I)",
+  "light_commercial_plate_n": "Light Commercial (Class E)",
+  "diplomatic_plate_n": "Diplomatic Corps (Class F)",
+  "vanity_plates_description_n": "Norway introduced personalised plates (egendefinerte kjennemerker) on 15 June 2017. The one-time fee is NOK 9,000, which grants a 10-year exclusive right to the chosen combination. Plates may be 2–7 characters (letters and digits); the letters G, I, O, and Q are not permitted on any Norwegian plate. Combinations resembling offensive words, registered trademarks, or the standard sequential format are rejected. Eligibility is limited to privately owned passenger cars and caravans — leased vehicles are excluded, and the applicant must be the sole owner and at least 18 years old.\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Norway"
 }
