@@ -46,5 +46,18 @@
   "historic_vehicles_de": "Historic vehicles",
   "electric_vehicles_de": "Electric / Plug-in hybrid vehicles",
   "short_term_plate_de": "Short Term / Temporary plate",
-  "export_plate_de": "Export plate"
+  "export_plate_de": "Export plate",
+  "regions": "Regions",
+  "country_cz": "Czech Republic",
+  "description_cz": "Vehicle registration plates of the Czech Republic use a regional code system introduced in 2001. Each plate contains a single letter in the second position of the first group (format: 1A2 3456) that identifies one of the 14 administrative regions (kraje). For example, plates with the letter \"A\" originate from Prague (Hlavní město Praha), while \"B\" indicates South Moravia (Jihomoravský kraj).\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_the_Czech_Republic",
+  "vanity_plates_description_cz": "In the Czech Republic, personalised registration plates are possible. The owner may choose a combination of letters and numbers subject to availability and regulations set by the regional authorities.\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_the_Czech_Republic",
+  "standard_license_plate_cz": "Standard License Plate",
+  "country_sk": "Slovakia",
+  "description_sk": "Vehicle registration plates of Slovakia used a two-letter district code system from 1997 to 2022. The first two letters identified the district of registration — for example, \"BA\" for Bratislava I and \"KE\" for Košice I. In January 2023, Slovakia switched to a national sequential numbering system where the letters no longer indicate the region of registration. The district codes listed here reflect the historical 1997–2022 system.\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Slovakia",
+  "vanity_plates_description_sk": "Personalised plates have been available in Slovakia since 1998. The format consists of a two-letter prefix (often a former district code, e.g. BA for Bratislava) followed by up to five letters or digits. Unlike standard plates, personalised plates may use the letters Q and W. Plates may not display political, religious, or offensive content. After the 2023 system change, the old district codes are commonly used as the personal prefix even though they no longer appear on standard plates.\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Slovakia",
+  "standard_license_plate_sk": "Standard License Plate",
+  "country_pl": "Poland",
+  "description_pl": "Vehicle registration plates of Poland use a county (powiat) code system. Each plate begins with a 2–3 letter code: the first letter identifies the voivodeship (province), and the following letter(s) identify the specific county or city within that voivodeship. For example, \"WA\" indicates Warsaw in the Masovian Voivodeship, and \"KR\" indicates Kraków in the Lesser Poland Voivodeship.\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Poland",
+  "vanity_plates_description_pl": "In Poland, personalised registration plates are available. Owners can apply for a custom combination of letters and numbers, subject to availability and payment of the applicable fee.\n\nSource: https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Poland",
+  "standard_license_plate_pl": "Standard License Plate"
 }

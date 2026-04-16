@@ -46,5 +46,18 @@
   "historic_vehicles_de": "Historisches Fahrzeug",
   "electric_vehicles_de": "Elektrisches Fahrzeug",
   "short_term_plate_de": "Kurzzeitkennzeichen",
-  "export_plate_de": "Ausfuhrkennzeichen"
+  "export_plate_de": "Ausfuhrkennzeichen",
+  "regions": "Regionen",
+  "country_cz": "Tschechien",
+  "description_cz": "Die Kraftfahrzeugkennzeichen der Tschechischen Republik verwenden seit 2001 ein regionales Kennzeichensystem. Jedes Kennzeichen enthält an zweiter Stelle der ersten Zeichengruppe (Format: 1A2 3456) einen einzelnen Buchstaben, der eine der 14 Verwaltungsregionen (Kraje) kennzeichnet. So weisen Kennzeichen mit dem Buchstaben A auf Prag (Hlavní město Praha) hin, während B für Südmähren (Jihomoravský kraj) steht.\n\nQuelle: https://de.wikipedia.org/wiki/Kraftfahrzeugkennzeichen_Tschechiens",
+  "vanity_plates_description_cz": "In der Tschechischen Republik sind Wunschkennzeichen möglich. Der Fahrzeughalter kann vorbehaltlich der Verfügbarkeit und der regionalen Vorschriften eine individuelle Buchstaben-Zahlen-Kombination wählen.\n\nQuelle: https://de.wikipedia.org/wiki/Kraftfahrzeugkennzeichen_Tschechiens",
+  "standard_license_plate_cz": "Standardkennzeichen",
+  "country_sk": "Slowakei",
+  "description_sk": "Die Kraftfahrzeugkennzeichen der Slowakei verwendeten von 1997 bis 2022 ein zweistelliges Bezirkskennzeichensystem. Die ersten beiden Buchstaben identifizierten den Zulassungsbezirk – zum Beispiel BA für Bratislava I und KE für Košice I. Im Januar 2023 wechselte die Slowakei zu einem landesweiten sequentiellen Nummerierungssystem, bei dem die Buchstaben keinen regionalen Bezug mehr haben. Die hier aufgeführten Bezirkskürzel entsprechen dem historischen System von 1997 bis 2022.\n\nQuelle: https://de.wikipedia.org/wiki/Kraftfahrzeugkennzeichen_der_Slowakei",
+  "vanity_plates_description_sk": "Wunschkennzeichen sind in der Slowakei seit 1998 erhältlich. Das Format besteht aus einem zweistelligen Präfix (häufig ein ehemaliges Bezirkskürzel, z. B. BA für Bratislava) gefolgt von bis zu fünf Buchstaben oder Ziffern. Im Gegensatz zu Standardkennzeichen dürfen bei Wunschkennzeichen die Buchstaben Q und W verwendet werden. Kennzeichen dürfen keine politischen, religiösen oder anstößigen Inhalte zeigen. Nach der Systemumstellung 2023 werden die alten Bezirkskürzel weiterhin häufig als persönliches Präfix genutzt, obwohl sie auf Standardkennzeichen nicht mehr erscheinen.\n\nQuelle: https://de.wikipedia.org/wiki/Kraftfahrzeugkennzeichen_der_Slowakei",
+  "standard_license_plate_sk": "Standardkennzeichen",
+  "country_pl": "Polen",
+  "description_pl": "Die Kraftfahrzeugkennzeichen Polens verwenden ein Kreiskennzeichensystem (Powiat). Jedes Kennzeichen beginnt mit einem 2–3-buchstabigen Kürzel: Der erste Buchstabe kennzeichnet die Woiwodschaft (Provinz), die folgenden Buchstaben den jeweiligen Kreis oder die Stadt innerhalb der Woiwodschaft. So steht WA für Warschau in der Masowischen Woiwodschaft und KR für Krakau in der Kleinpolnischen Woiwodschaft.\n\nQuelle: https://de.wikipedia.org/wiki/Kraftfahrzeugkennzeichen_Polens",
+  "vanity_plates_description_pl": "In Polen sind personalisierte Kennzeichen erhältlich. Fahrzeughalter können eine individuelle Buchstaben-Zahlen-Kombination beantragen, sofern diese verfügbar ist und die entsprechende Gebühr entrichtet wird.\n\nQuelle: https://de.wikipedia.org/wiki/Kraftfahrzeugkennzeichen_Polens",
+  "standard_license_plate_pl": "Standardkennzeichen"
 }

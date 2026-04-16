@@ -41,5 +41,18 @@
   "historic_vehicles_de": "",
   "electric_vehicles_de": "",
   "short_term_plate_de": "",
-  "export_plate_de": ""
+  "export_plate_de": "",
+  "regions": "",
+  "country_cz": "",
+  "description_cz": "",
+  "vanity_plates_description_cz": "",
+  "standard_license_plate_cz": "",
+  "country_sk": "",
+  "description_sk": "",
+  "vanity_plates_description_sk": "",
+  "standard_license_plate_sk": "",
+  "country_pl": "",
+  "description_pl": "",
+  "vanity_plates_description_pl": "",
+  "standard_license_plate_pl": ""
 }

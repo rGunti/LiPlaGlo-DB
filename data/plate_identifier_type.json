@@ -45,6 +45,21 @@
     "name": "diplomatic"
   },
   {
+    "id": 40,
+    "country_id": "CZ",
+    "name": "regions"
+  },
+  {
+    "id": 50,
+    "country_id": "SK",
+    "name": "political_districts"
+  },
+  {
+    "id": 60,
+    "country_id": "PL",
+    "name": "political_districts"
+  },
+  {
     "id": 9999999,
     "country_id": "XX",
     "name": "cantons"

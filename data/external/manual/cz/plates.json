@@ -1,0 +1,16 @@
+[
+  { "identifier": "A", "name": "Praha", "region": "Hlavní město Praha" },
+  { "identifier": "B", "name": "Brno", "region": "Jihomoravský kraj" },
+  { "identifier": "C", "name": "České Budějovice", "region": "Jihočeský kraj" },
+  { "identifier": "E", "name": "Pardubice", "region": "Pardubický kraj" },
+  { "identifier": "H", "name": "Hradec Králové", "region": "Královéhradecký kraj" },
+  { "identifier": "J", "name": "Jihlava", "region": "Kraj Vysočina" },
+  { "identifier": "K", "name": "Karlovy Vary", "region": "Karlovarský kraj" },
+  { "identifier": "L", "name": "Liberec", "region": "Liberecký kraj" },
+  { "identifier": "M", "name": "Olomouc", "region": "Olomoucký kraj" },
+  { "identifier": "P", "name": "Plzeň", "region": "Plzeňský kraj" },
+  { "identifier": "S", "name": "Praha (Středočeský kraj)", "region": "Středočeský kraj" },
+  { "identifier": "T", "name": "Ostrava", "region": "Moravskoslezský kraj" },
+  { "identifier": "U", "name": "Ústí nad Labem", "region": "Ústecký kraj" },
+  { "identifier": "Z", "name": "Zlín", "region": "Zlínský kraj" }
+]

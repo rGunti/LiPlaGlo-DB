@@ -143,6 +143,39 @@
     "hidden": 1
   },
   {
+    "id": "CZ",
+    "name": "country_cz",
+    "flag_emoji": "🇨🇿",
+    "license_plate_font": null,
+    "generic_preview": "1A2 3456",
+    "description": "description_cz",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_cz",
+    "hidden": 0
+  },
+  {
+    "id": "SK",
+    "name": "country_sk",
+    "flag_emoji": "🇸🇰",
+    "license_plate_font": null,
+    "generic_preview": "BA 123AB",
+    "description": "description_sk",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_sk",
+    "hidden": 0
+  },
+  {
+    "id": "PL",
+    "name": "country_pl",
+    "flag_emoji": "🇵🇱",
+    "license_plate_font": null,
+    "generic_preview": "WA 12345",
+    "description": "description_pl",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_pl",
+    "hidden": 0
+  },
+  {
     "id": "FL",
     "name": "country_fl",
     "flag_emoji": "\uD83C\uDDF1\uD83C\uDDEE",
