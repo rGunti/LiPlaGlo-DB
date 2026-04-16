@@ -48,11 +48,11 @@
     "name": "country_n",
     "flag_emoji": "\uD83C\uDDF3\uD83C\uDDF4",
     "license_plate_font": null,
-    "generic_preview": "XX 12345",
-    "description": null,
-    "vanity_plates_possible": 0,
-    "vanity_plates_description": null,
-    "hidden": 1
+    "generic_preview": "RE 12345",
+    "description": "description_n",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_n",
+    "hidden": 0
   },
   {
     "id": "AX",
@@ -141,6 +141,39 @@
     "vanity_plates_possible": 0,
     "vanity_plates_description": null,
     "hidden": 1
+  },
+  {
+    "id": "CZ",
+    "name": "country_cz",
+    "flag_emoji": "🇨🇿",
+    "license_plate_font": null,
+    "generic_preview": "1A2 3456",
+    "description": "description_cz",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_cz",
+    "hidden": 0
+  },
+  {
+    "id": "SK",
+    "name": "country_sk",
+    "flag_emoji": "🇸🇰",
+    "license_plate_font": null,
+    "generic_preview": "BA 123AB",
+    "description": "description_sk",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_sk",
+    "hidden": 0
+  },
+  {
+    "id": "PL",
+    "name": "country_pl",
+    "flag_emoji": "🇵🇱",
+    "license_plate_font": null,
+    "generic_preview": "WA 12345",
+    "description": "description_pl",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_pl",
+    "hidden": 0
   },
   {
     "id": "FL",
