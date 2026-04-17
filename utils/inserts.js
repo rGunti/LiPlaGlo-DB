@@ -31,3 +31,13 @@ export function setDbVersion(db, version) {
         throw error;
     }
 }
+
+export function setDbBuildDate(db, isoDate) {
+    const sql = `INSERT INTO version (id, version) VALUES (?, ?)`;
+    try {
+        logging.logSqlCommand(sql, [isoDate]);
+        db.prepare(sql).run('db_build_date', isoDate);
+    } catch (error) {
+        throw error;
+    }
+}

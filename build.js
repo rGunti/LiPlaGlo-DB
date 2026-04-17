@@ -153,6 +153,7 @@ await runPostProcessingScripts(database);
 logging.log('Setting version');
 const dbVersion = getDatabaseVersion();
 inserts.setDbVersion(database, `${dbVersion}`);
+inserts.setDbBuildDate(database, new Date().toISOString());
 
 database.close();
 
