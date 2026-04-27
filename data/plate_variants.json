@@ -518,5 +518,57 @@
     "preview_font": null,
     "description": null,
     "order": 12
+  },
+  {
+    "id": 612,
+    "country_id": "UA",
+    "title": "standard_license_plate_ua",
+    "preview": "AA 1234 BB",
+    "preview_text_color": "000000",
+    "preview_bg_color": "ffffff",
+    "preview_border_color": "000000",
+    "in_use": 1,
+    "preview_font": null,
+    "description": null,
+    "order": 1
+  },
+  {
+    "id": 613,
+    "country_id": "UA",
+    "title": "diplomatic_plate_ua",
+    "preview": "CD 001234",
+    "preview_text_color": "ffc700",
+    "preview_bg_color": "003399",
+    "preview_border_color": null,
+    "in_use": 1,
+    "preview_font": null,
+    "description": null,
+    "order": 2
+  },
+  {
+    "id": 614,
+    "country_id": "UA",
+    "title": "military_plate_ua",
+    "preview": "AA 1234 BB",
+    "preview_text_color": "ffffff",
+    "preview_bg_color": "4a5240",
+    "preview_border_color": null,
+    "in_use": 1,
+    "preview_font": null,
+    "description": null,
+    "order": 3
+  },
+  {
+    "id": 615,
+    "country_id": "UA",
+    "title": "transit_plate_ua",
+    "preview": "AA 1234 BB",
+    "preview_text_color": "ffffff",
+    "preview_bg_color": "cc0000",
+    "preview_border_color": null,
+    "in_use": 1,
+    "preview_font": null,
+    "description": null,
+    "order": 4
   }
 ]

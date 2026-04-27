@@ -80,6 +80,21 @@
     "name": "federal"
   },
   {
+    "id": 80,
+    "country_id": "UA",
+    "name": "political_districts"
+  },
+  {
+    "id": 81,
+    "country_id": "UA",
+    "name": "diplomatic"
+  },
+  {
+    "id": 82,
+    "country_id": "UA",
+    "name": "federal"
+  },
+  {
     "id": 9999999,
     "country_id": "XX",
     "name": "cantons"
