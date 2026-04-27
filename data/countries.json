@@ -176,6 +176,17 @@
     "hidden": 0
   },
   {
+    "id": "UA",
+    "name": "country_ua",
+    "flag_emoji": "🇺🇦",
+    "license_plate_font": null,
+    "generic_preview": "AA 1234 BB",
+    "description": "description_ua",
+    "vanity_plates_possible": 1,
+    "vanity_plates_description": "vanity_plates_description_ua",
+    "hidden": 0
+  },
+  {
     "id": "FL",
     "name": "country_fl",
     "flag_emoji": "\uD83C\uDDF1\uD83C\uDDEE",
